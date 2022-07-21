@@ -1,0 +1,265 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*cabeçalho*/
+
+header{
+  padding: 60px 170px;
+  background-image: url("Desktop/gamer.png");
+  filter: brightness(70%);
+}
+
+#section-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottons{
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+}
+
+ul .bottonHeader{
+  text-decoration: none;
+  color: white;
+}
+
+.bottonHeader:hover{
+  color: black;
+  transition: 0.3s;
+}
+
+/*meio do cabeçalho*/
+
+.experiencia{
+  padding-top: 120px;
+  padding-bottom: 75px;
+}
+
+.IMMERSIVE{
+  border: solid;
+  color: white;
+  font-size: 60px;
+  max-width: 600px;
+  padding: 25px 10px 25px 40px;
+}
+
+/*parte 2*/
+
+main.conteiner{
+  padding: 60px 170px;
+  background-image: url('Desktop/cara.png');
+  background-repeat: no-repeat;
+  width: 41rem;
+  height: auto;
+  margin: 5rem 10rem;
+}
+
+main div.completo{
+  padding: 140px 0px 0px 350px;
+}
+
+main div.text{
+  background-color: white;
+  width: 510px;
+  height: 300px;
+  padding-left: 70px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+main h1.leader{
+  max-width: 400px;
+  font-size: 45px;
+  margin-bottom: 20px;
+  
+}
+
+main p.lorem{
+  max-width: 400px ;
+  font-size: 17px;
+}
+
+/*parte 3*/
+
+#conteiner-2{
+  padding: 80px 170px;
+}
+
+main div.header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-bottom: 100px;
+}
+
+main h1.OUR{
+  font-size: 40px;
+}
+
+main a.SEE{
+  border: 2px solid black;
+  padding: 10px 40px;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.SEE:hover{
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+
+.bottons-2{
+  display: flex;
+  gap: 30px;
+  padding-bottom: 20px;
+}
+
+
+.image-1{
+  background-image: url('Desktop/mundo.png');
+  height: 28rem;
+  width: 15.22rem;
+  filter: brightness(70%);
+  transition: 0.5s;
+  text-align: left;
+}
+
+.image-1:hover{
+ transform: translateY(-30px)
+}
+
+.image-2{
+  background-image: url('Desktop/fixas.png');
+  height: 28rem;
+  width: 15.22rem;
+  filter: brightness(70%);
+  transition: 0.5s;
+}
+
+.image-2:hover{
+  transform: translateY(-30px)
+}
+
+.image-3{
+  background-image: url('Desktop/futebol.png');
+  height: 28rem;
+  width: 15.22rem;
+  filter: brightness(70%);
+  transition: 0.5s;
+}
+
+.image-3:hover{
+  transform: translateY(-30px)
+}
+
+.image-4{
+  background-image: url('Desktop/carro.png');
+  height: 28rem;
+  width: 15.22rem;
+  filter: brightness(70%);
+  transition: 0.5s;
+}
+
+.image-4:hover{
+  transform: translateY(-30px)
+}
+
+.image-5{
+  background-image: url('Desktop/estrada.png');
+  height: 28rem;
+  width: 15.22rem;
+  filter: brightness(70%);
+  transition: 0.5s;
+}
+
+.image-5:hover{
+  transform: translateY(-30px)
+}
+
+.image-6{
+  background-image: url('Desktop/galaxi.png');
+  height: 28rem;
+  width: 15.22rem;
+  filter: brightness(70%);
+  transition: 0.5s;
+}
+
+.image-6:hover{
+  transform: translateY(-30px)
+}
+
+.image-7{
+  background-image: url('Desktop/robô.png');
+  height: 28rem;
+  width: 15.22rem;
+  filter: brightness(70%);
+  transition: 0.5s;
+}
+
+.image-7:hover{
+  transform: translateY(-30px)
+}
+
+.image-8{
+  background-image: url('Desktop/bola\ diferenciada.png');
+  height: 28rem;
+  width: 15.22rem;
+  filter: brightness(70%);
+  transition: 0.5s;
+}
+
+.image-8:hover{
+  transform: translateY(-30px)
+}
+
+.links{
+  color: white;
+  font-size: 25px;
+  padding: 22.7rem 4rem 2rem 2rem;
+}
+
+/* rodapé*/
+
+footer{
+  padding: 50px 0px ;
+  margin-top: 200px;
+  background-color: black;
+}
+
+footer div.global{
+  padding: 0px 170px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+footer div.logo{
+  margin-top: 1rem;
+  height: 2rem;
+  width: 12rem;
+}
+
+footer div ul{
+  margin: 3rem 0;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style:none; 
+}
+
+footer div.main-roda{
+  text-align: right;
+}
+
+footer div.icons{
+  margin: 1rem 0rem 3rem 0rem;
+}
